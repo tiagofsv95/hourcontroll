@@ -17,6 +17,6 @@ You will also see any lint errors in the console.
 ### Warning
 
 Runs the app in the development mode on Backend either.<br />
-Open [KanbanBack](https://github.com/tiagofsv95/KanbanBack) to view this repository.
+Open [Solidies Project - BackEnd](https://github.com/tiagofsv95/hourcontroll-server/) to view this repository.
 
 ###### Made with love, affection, much fun and a little hurry, by Tiago Felipe. <3

@@ -4,12 +4,12 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 `;
 
 export const Form = styled.form`
-  height: 650px;
-  width: 400px;
+  height: 100%;
+  width: 600px;
   background: #fff;
   padding: 20px;
   display: flex;
@@ -56,6 +56,7 @@ export const Form = styled.form`
       width: 180px;
       text-align: center;
     }
+
     input {
       flex: 1;
       height: 60px;
@@ -68,12 +69,46 @@ export const Form = styled.form`
       align-items: center;
     }
   }
+
   button {
     color: #fff;
     font-size: 16px;
     height: 56px;
     border: 0;
     border-radius: 5px;
+    width: 370px;
+  }
+
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
     width: 100%;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 30px;
+
+    li {
+      padding: 15px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        padding: 10px;
+      }
+
+      & + li {
+        border-top: 1px solid #eee;
+      }
+
+      a {
+        color: #7159c1;
+        text-decoration: none;
+      }
+    }
   }
 `;
